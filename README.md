@@ -10,6 +10,12 @@ This configuration includes two Shard Instances with EXPLICIT_ID sharding method
 
 The Sharding Method property is named `shard:shardId`, belonging to aspect `shard:sharding`, and it's deployed by default with ACS Docker Image.
 
+Sharding Method to be used (`EXPLICIT_ID` or `EXPLICIT_ID_FALLBACK_LRIS`) can be configured by setting the following variable in `.env` file.
+
+```
+EXPLICIT_ID_METHOD=EXPLICIT_ID_FALLBACK_LRIS
+```
+
 ## Usage
 
 Start the environment without Shard Instance 0 replica.

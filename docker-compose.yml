@@ -62,7 +62,7 @@ services:
             NUM_SHARDS: "3"
             SHARD_ID: "0"
             SHARD_KEY: "shard:shardId"
-            SHARDING_METHOD: EXPLICIT_ID
+            SHARDING_METHOD: ${EXPLICIT_ID_METHOD}
         mem_limit: 1200m
         environment:
             #Solr needs to know how to register itself with Alfresco
@@ -90,7 +90,7 @@ services:
             NUM_SHARDS: "3"
             SHARD_ID: "0"
             SHARD_KEY: "shard:shardId"
-            SHARDING_METHOD: EXPLICIT_ID
+            SHARDING_METHOD: ${EXPLICIT_ID_METHOD}
         mem_limit: 1200m
         environment:
             #Solr needs to know how to register itself with Alfresco
@@ -118,7 +118,7 @@ services:
             NUM_SHARDS: "3"
             SHARD_ID: "1"
             SHARD_KEY: "shard:shardId"
-            SHARDING_METHOD: EXPLICIT_ID
+            SHARDING_METHOD: ${EXPLICIT_ID_METHOD}
         mem_limit: 1200m
         environment:
             #Solr needs to know how to register itself with Alfresco
