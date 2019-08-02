@@ -85,7 +85,7 @@ http://localhost:8085/solr/alfresco/select?fl=[cached]cm_name,[cached]PATH,[cach
 Start Shard Instance 0 replica.
 
 ```
-docker-compose up --build --force-recreate solr6replica
+$ docker-compose up --build --force-recreate solr6replica
 
 $ docker ps --format 'table {{.Names}}\t{{.Image}}'
 NAMES                                 IMAGE
