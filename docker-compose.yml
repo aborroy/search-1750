@@ -59,7 +59,7 @@ services:
             ALFRESCO_HOSTNAME: alfresco
             ALFRESCO_COMMS: none
             ENABLE_SHARDING: "true"
-            NUM_SHARDS: "3"
+            NUM_SHARDS: "2"
             SHARD_ID: "0"
             SHARD_KEY: "shard:shardId"
             SHARDING_METHOD: ${EXPLICIT_ID_METHOD}
@@ -87,7 +87,7 @@ services:
             ALFRESCO_HOSTNAME: alfresco
             ALFRESCO_COMMS: none
             ENABLE_SHARDING: "true"
-            NUM_SHARDS: "3"
+            NUM_SHARDS: "2"
             SHARD_ID: "0"
             SHARD_KEY: "shard:shardId"
             SHARDING_METHOD: ${EXPLICIT_ID_METHOD}
@@ -115,7 +115,7 @@ services:
             ALFRESCO_HOSTNAME: alfresco
             ALFRESCO_COMMS: none
             ENABLE_SHARDING: "true"
-            NUM_SHARDS: "3"
+            NUM_SHARDS: "2"
             SHARD_ID: "1"
             SHARD_KEY: "shard:shardId"
             SHARDING_METHOD: ${EXPLICIT_ID_METHOD}
